@@ -1,0 +1,26 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+header {
+  background-color: aquamarine;
+  flex-grow: 1;
+}
+
+main {
+  flex-grow: 1;
+}
+nav {
+  flex-grow;
+  backgoriund
+}
+
+footer {
+  flex-grow: 1;
+}

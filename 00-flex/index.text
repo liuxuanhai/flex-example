@@ -1,0 +1,42 @@
+* FLEX박스를 사용
+display: flex;
+
+* 감싸거나 삐져나가거나
+default: nowrap
+flex-wrap: nowrap | wrap;
+
+* 아이템의 방향을 결정(중심축)
+default: row
+flex-direction: row | row-reverse | column | column-reverse
+
+* 중심축을 기준으로 아이템 배치
+default: flex-start
+justify-content: flex-start | center | flex-end | space-between | space-around | space-evenly
+
+* 중심축 반대방향의 전체적인 배치
+(★멀티 라인일경우에만 허용됨!: flex-wrap: wrap일 경우!)
+default: flex-start
+align-content: flex-start | center | flex-end | space-between | space-around | space-evenly
+
+* 중심축 반대방향의 아이템들 배치
+default: 
+align-items: flex-start | center | flex-end | strach | baseline
+
+
+* 컨테이너
+flex-direction: column | column-reverse | row | row-reverse
+justify-content: flex-start | center | flex-end | space-around | space-between | space-evenly
+align-items: flex-start | center | flex-end | stratch
+align-content (default: stretch): flex-start | center | flex-end | space-around | space-between
+
+flex-flow: <flex-direction> <flex-wrap>
+flex-direction: ?
+flex-wrap: nowrap | wrap | wrap-reverse
+
+* 아이템들
+align-self (default: auto): flex-start | center | flex-end | stratch
+flex: <flex-grow> <flex-shrink> <flex-basis>
+flex-grow (default: 0)
+flex-shrink (default: 1)
+flex-basis (default: auto)
+order: <number>

@@ -1,0 +1,85 @@
+/* 공통 영역 */
+html {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+/* 헤더 영역 */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  background-color: beige;
+}
+.left {
+  margin-left: 20px;
+}
+.right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}
+
+/* 메인 영역 */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 5;
+  background-color: coral;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+}
+.card-a,
+.card-b,
+.card-c {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  background-color: blueviolet;
+  color: white;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: burlywood;
+}
+h2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  padding: 20px;
+  width: 240px;
+  height: 80px;
+  font-weight: bold;
+}
+h2 > small {
+  display: flex;
+  justify-content: center;
+  font-weight: normal;
+}
+
+/* 푸터 영역 */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  background-color: honeydew;
+}
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}

@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  display: flex;
+}
+
+section {
+  width: 100%;
+
+  background-color: peru;
+}
+
+.left {
+  display: flex;
+  align-items: flex-end;
+  background-color: forestgreen;
+  width: 30%;
+}
+
+.side {
+  display: flex;
+  flex-direction: column;
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+  margin-left: 40px;
+  margin-bottom: 50px;
+}
+
+p > small {
+  font-size: 14px;
+  margin-top: 20px;
+  font-weight: normal;
+}
+
+.phrase {
+  padding: 60px;
+  line-height: 160%;
+}
